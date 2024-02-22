@@ -16,7 +16,7 @@ export const upload_file = (file, folder) => {
       (result) => {
         resolve({
           public_id: result.public_id,
-          url: result.ul,
+          url: result.url,
         });
       },
       {
